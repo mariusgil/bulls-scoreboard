@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 575px;
+    height: 385px;
+    background: #1F2937;
+    background-image: url("https://cdn.nba.com/teams/legacy/www.nba.com/bulls/sites/bulls/files/1920-generic-bullhead.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.team {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    color: #F5F3FF;
+}
+
+#home-score {
+    font-size: 100px;
+    color: #bb0c35;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL';
+    padding-top:10px;
+}
+
+#guest-score {
+    font-size: 100px;
+    color: #bb0c35;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL';
+    padding-top:10px;
+}
+
+button {
+    background:#bb0c35;
+    color: #F5F3FF;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 20px;
+    border: 2px solid #bb0c35;
+    border-radius: 10px;
+    padding-top: 4px;
+   
+}
